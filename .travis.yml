@@ -1,0 +1,6 @@
+language: python
+python:
+  - "3.6"
+script:
+  # Offload to a script we can run this locally easily.
+  - ./run_test.sh
